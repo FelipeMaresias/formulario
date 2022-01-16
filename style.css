@@ -7,7 +7,7 @@
 h1{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: purple;
 }
 .intro{
     color: white;
@@ -170,6 +170,8 @@ h1{
     width: 170px;
     outline:none;
     margin-bottom: 5px;
+    border-radius: 30px;
+    height: 30px;
 }
 .tempo{
     font-size: 20px;
@@ -185,6 +187,8 @@ h1{
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5px;
+    border-radius: 30px;
+    height: 30px;
 }
 .check{
     display: flex;
@@ -206,6 +210,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
 }
 #remoto:before{
     content: "";
@@ -214,6 +219,7 @@ h1{
     background: purple;
     width: 10px;
     opacity: 0;
+    border-radius: 50%;
 }
 #remoto:checked:before{
     opacity: 1;
@@ -230,6 +236,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 #presencial:before{
     content: "";
@@ -238,6 +245,7 @@ h1{
     background: purple;
     width: 10px;
     opacity: 0;
+    border-radius: 50%;
 }
 #presencial:checked:before{
     opacity: 1;
@@ -254,6 +262,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 #semi:before{
     content: "";
@@ -262,6 +271,7 @@ h1{
     background: purple;
     width: 10px;
     opacity: 0;
+    border-radius: 50%;
 }
 #semi:checked:before{
     opacity: 1;
@@ -277,7 +287,7 @@ h1{
     font-family: 'times New Roman';
     font-size: 20px;
     margin-top: 5px;
-    color: white;
+    color: white; 
 }
 #idade{
     padding: 3px;
@@ -285,11 +295,15 @@ h1{
     border: 2px solid purple;
     margin-top: 5px;
     outline: none;
+    color: white;
+    width: 173px;
+    border-radius: 30px;
+    height: 25px;
 }
 
 
 #enviar{
-    margin-top: 40px;
+    margin-top: 17px;
     width: 177px;
     color: black;
     background:purple;
@@ -297,10 +311,10 @@ h1{
 img{
     position: relative;
     float: right;
-    bottom: 350px;
+    bottom: 390px;
     width: 600px;
     padding-right: 200px;
-    opacity: 50%;
+    opacity: 60%;
     border-radius: 10%;
 }
 
@@ -310,7 +324,7 @@ img{
     border: none;
     font-size: 20px;
     font-family: 'Times New Roman';
-    color: #fff;
+    color: white;
     width: 9em;
     height: 3em;
     line-height: 2em;
@@ -357,3 +371,27 @@ img{
    #enviar:active {
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
    }
+.linkedin{
+    list-style-image: url(./imagens/linkedin2.png);
+    position: absolute;
+    right: 300px;
+    bottom: 56px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+.github {
+    list-style-image: url(./imagens/github.png);
+    position: absolute;
+    right: 570px;
+    bottom: 57px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    }
+  @media screen and (max-width: 600px) {
+    .conteiner{
+       bottom: 500px;
+
+    }
+    
